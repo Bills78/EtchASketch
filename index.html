@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Etch A Sketch</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Etch A Sketch</h1>
+    </div>
+    <div class="main">
+      <div class="range">
+        <input
+          type="range"
+          id="volume"
+          name="volume"
+          min="4"
+          max="64"
+          value="16"
+        />
+        <label for="volume">Number of Squares:</label>
+        <h3 class="number">16</h3>
+      </div>
+      <div class="board"></div>
+      <div class="buttons">
+        <button class="color" type="button">Colorize</button>
+        <button class="classic" type="button">Classic</button>
+        <button class="reset" type="button">Reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
